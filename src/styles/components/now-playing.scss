@@ -21,14 +21,14 @@
   }
 
   &__cover {
-    max-width: 1000px;
+    max-width: 640px;
   }
 
   &__image {
-    box-shadow: 8px 8px 128px var(--colour-background-now-playing);
+    box-shadow: 4px 4px 48px var(--colour-background-now-playing);
     height: auto;
     max-width: 60vw;
-    width: 100%;
+    width: 60%;
   }
 
   &__details {
