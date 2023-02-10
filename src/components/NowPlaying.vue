@@ -143,9 +143,9 @@ export default {
        * Run node-vibrant to get colours.
        */
       Vibrant.from(this.player.trackAlbum.image)
-        .quality(1)
+        .quality(10)
         .clearFilters()
-        .getDarkVibrant()
+        .getPalette()
         .then(palette => {
           this.handleAlbumPalette(palette)
         })
