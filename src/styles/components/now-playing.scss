@@ -17,7 +17,7 @@
   &__details {
     padding: var(--spacing-m);
     text-align: center;
-    width: 100%;
+    width: 40%;
   }
 
   &__cover {
@@ -40,7 +40,7 @@
   }
 
   &__artists {
-    opacity: 0.65;
+    opacity: 0.5;
   }
 
   &--active {
@@ -60,7 +60,7 @@
 
     &__cover,
     &__details {
-      width: 100%;
+      width: 50%;
       max-width: 495px;
     }
 
