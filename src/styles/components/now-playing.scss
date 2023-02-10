@@ -5,8 +5,8 @@
  *
  */
 .now-playing {
-  background-color: rgba(var(--colour-background-now-playing), 0.2);
-  color: var(--color-text-primary);
+  background-color: rgba(var(--colour-background-now-playing),1);
+  color: white;
   display: flex;
   flex-flow: column nowrap;
   height: 100%;
