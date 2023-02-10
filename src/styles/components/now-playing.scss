@@ -5,13 +5,13 @@
  *
  */
 .now-playing {
-  background-color: black;
-  color: white;
+  background-color: var(--colour-background-now-playing);
+  color: var(--color-text-primary);
   display: flex;
   flex-flow: column nowrap;
-  height: 150%;
+  height: 100%;
   padding: var(--spacing-l);
-  width: 120%;
+  width: 100%;
 
   &__cover,
   &__details {
@@ -40,7 +40,7 @@
   }
 
   &__artists {
-    opacity: 0.75;
+    opacity: 0.8;
   }
 
   &--active {
