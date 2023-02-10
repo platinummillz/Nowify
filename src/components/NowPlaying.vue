@@ -145,7 +145,7 @@ export default {
       Vibrant.from(this.player.trackAlbum.image)
         .quality(1)
         .clearFilters()
-        .getPalette()
+        .getDarkVibrant()
         .then(palette => {
           this.handleAlbumPalette(palette)
         })
